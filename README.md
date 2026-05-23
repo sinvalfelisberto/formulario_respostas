@@ -81,7 +81,7 @@ Abra o arquivo `index.html` no navegador.
 - [x] Envio de formulário
 - [x] Captura de dados do usuário
 - [x] Validação básica de campos
-- [ ] Integração com banco de dados
+- [x] Integração com banco de dados
 - [ ] Sistema de autenticação
 - [ ] Exportação de respostas
 
