@@ -32,11 +32,26 @@ As principais tecnologias utilizadas no projeto:
 
 ```bash
 formulario_respostas/
-├── assets/
-├── css/
-├── js/
-├── index.html
-└── README.md
+├── .env                  (Suas senhas - NÃO vai para o Git)
+├── .env.example          (Modelo - Vai para o Git)
+├── .gitignore            (Regras do Git)
+├── app/                  (Núcleo do Sistema - Protegido)
+│   ├── Config/
+│   │   └── Database.php  (Conexão com o banco)
+│   ├── Controllers/
+│   │   └── FormController.php (Validação LGPD)
+│   ├── Models/
+│   │   └── Feedback.php  (Salva no MySql)
+│   └── Views/
+│       └── home.php      (O seu HTML)
+└── public/               (Pasta exposta na web)
+    ├── index.php         (Carrega a View)
+    ├── api.php           (Recebe os dados do JS)
+    └── assets/
+        ├── css/
+        │   └── style.css (O seu CSS)
+        └── js/
+            └── script.js (O seu JS)
 ```
 
 ---
