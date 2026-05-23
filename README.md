@@ -32,7 +32,7 @@ As principais tecnologias utilizadas no projeto:
 
 ```bash
 formulario_respostas/
-├── .env                  (Suas senhas - NÃO vai para o Git)
+├── .env                  (Suas senhas - Adicione suas senhas aqui)
 ├── .env.example          (Modelo - Vai para o Git)
 ├── .gitignore            (Regras do Git)
 ├── app/                  (Núcleo do Sistema - Protegido)
